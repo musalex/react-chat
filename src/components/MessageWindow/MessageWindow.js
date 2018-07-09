@@ -21,7 +21,7 @@ class MessageWindow extends PureComponent {
         if (e.target.value == '') return;
         let dateString = (new Date()).toString().split(' ')[4].slice(0,-3);
 
-        let text = e.target.value.split(' ');
+        let text = e.target.value;
         // text = text.map(e=>check(e,355)).join(' ');
 
         let obj = {

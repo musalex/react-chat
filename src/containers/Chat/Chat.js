@@ -35,6 +35,7 @@ class Chat extends Component {
         axios.get('/messages.json')
             .then(response => {
                 console.log(response);
+                if (!response.data) return;
                 let arr = Object.values(response.data);
                 let newArr = arr.map(e=>{
                     return {
