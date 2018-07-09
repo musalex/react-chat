@@ -1,2 +1,2 @@
-This app was created using react-router and react
+This app was created using react-router and redux <br>
 Database - Firebase
