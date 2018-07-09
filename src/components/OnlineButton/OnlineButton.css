@@ -1,0 +1,13 @@
+.OnlineButton {
+	background: #0e8a23;
+	width: 50px;
+	text-align: center;
+	padding: 4px;
+	font-size: 14px;
+	border-radius: 5px;
+	cursor: pointer;
+	position: absolute;
+	font-weight: bolder;
+	top: 10px;
+	left: -70px;
+}

@@ -1,0 +1,15 @@
+.Chat {
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	position: relative;
+	box-sizing: border-box;
+	/* overflow-x: hidden; */
+}
+
+@media (min-width: 500px) {
+	.Chat {
+		width: 800px;
+		height: 90%;
+	}
+}

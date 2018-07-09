@@ -1,0 +1,77 @@
+.BtnSubmit {
+    /* width: 314px !important; */
+    background: #191a1a !important;
+    color: #b1361e;
+    cursor: pointer;
+    border: 0 !important;
+    padding: 0;
+}
+.BtnSubmit:focus {
+    border: 0;
+}
+
+.Login input, button {
+    display: block;
+    margin: 14px 0;
+    height: 30px;
+    width: 100%;
+    border: 1px solid grey;
+    padding: 0 6px;
+    background: #FAFFBD;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.Login input:focus {
+    border: 1px solid blue;
+    border-radius: 7px;
+}
+
+.Login {
+    width: 98%;
+    height: 300px;
+    background: #262729;
+    border-radius: 18px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+
+.LoginWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Wrap {
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+@media (min-width: 500px) {
+    .Login {
+        width: 625px;
+        padding: 60px;
+        height: 425px;
+    }
+
+    .Login input, button {
+        margin: 10px 0;
+        height: 31px;
+        width: 375px;
+        padding: 0 7px;
+        font-size: 1em;
+    }
+     
+    .Wrap {
+        width: 375px;
+        height: 150px;
+        margin-top: 62px;
+    }    
+}

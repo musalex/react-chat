@@ -1,0 +1,35 @@
+.MessageWindow {
+	height: 50px;
+	background: #C05C48;
+	border-top: none;
+	overflow: hidden;
+}
+
+.MsgForm {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: #C05C48;
+	border: none;
+	outline: none;
+	resize: none;
+	color: #EFF5FF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 13px;
+}
+
+.MsgForm::-webkit-input-placeholder {
+	color: #EFF5FF;
+}
+.MsgForm::-webkit-scrollbar {
+	width: 0;
+}
+
+@media (min-width:500px) {
+	.MessageWindow {
+		border-radius: 0 0 20px 20px;
+	}
+}

@@ -1,0 +1,71 @@
+.Message {
+	border-radius: 6px;
+    padding: 6px;
+    position: absolute;
+    max-width: 80%;
+	min-width: 30px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	/* height: 25px; */
+}
+.msgContainer {
+    margin-bottom: 10px;
+    position: relative;
+}
+.getMsg {
+	background-color: rgb(74, 96, 223);
+	left: 5px;
+}
+.sentMsg {
+	background-color: rgb(12, 25, 99);
+	right: 5px;
+}
+
+
+.msgTimeWrap {
+	position: relative;
+	height: 10px;
+}
+
+.time {
+	font-size: 60%;
+	float: right;
+	/* position: absolute; */
+	/* right: 0px; */
+}
+
+.text {
+	max-width: 95%;
+	margin-left : 3px;
+	word-wrap: break-word;
+}
+
+.textWrapper {
+	display: flex;
+}
+
+.textSpace {
+	width: 35px;	
+}
+
+.nick {
+	color: rgba(92, 201, 29, 0.836);
+	margin-bottom: 16px;
+	font-weight: bold;
+	height: 10px;
+	font-size: 85%;
+}
+
+@media (min-width:500px) {
+	.Message {
+		max-width: 365px;
+	}
+
+	.sentMsg {
+		right: 15px;
+	}
+
+	.getMsg {
+		left: 10px
+	}
+}

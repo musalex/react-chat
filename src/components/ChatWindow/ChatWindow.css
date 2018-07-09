@@ -1,0 +1,23 @@
+.ChatWindow {
+	height: calc(100% - 90px);
+	background: white;
+	background: #262729;
+	padding: 5px;
+	color: #bbb;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.ChatWindow::-webkit-scrollbar {
+	width: 0;
+}
+
+/* .Messages {
+	display: flex;
+	align-items: flex-end;
+} */
+
+@media (min-width: 500px) {
+	.ChatWindow {
+		height: 90%;
+	}
+}

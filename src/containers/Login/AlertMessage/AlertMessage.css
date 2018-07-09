@@ -1,0 +1,20 @@
+.AlertMessage {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #C05C48;
+    color: #EFF5FF;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 0.85em;
+}
+
+@media (min-width: 500px) {
+    .AlertMessage {
+        width: 375px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1.2em;
+    }
+}

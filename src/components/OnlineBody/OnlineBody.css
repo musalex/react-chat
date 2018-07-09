@@ -1,0 +1,31 @@
+.ListWrap {
+    overflow-y: auto;
+    height: 315px;
+    width: 206px;
+}
+.OnlineBody {
+	position: absolute;
+	background:#262729;
+	width: 185px;
+	max-height: 295px;
+	top: 50px;
+	left: -201px;
+	border-radius: 10px;
+	overflow: hidden;
+    transition-duration: 0.3s;
+    padding: 0 4px;
+	/* padding: 2px; */
+}
+.OnlineUsers {
+	list-style: none;
+	font-size: 25px;
+	padding: 0;
+    text-align: center;
+}
+.OnlineUsers li {
+	margin-bottom: 11px;
+}
+
+/* .OnlineBody::-webkit-scrollbar {
+	width: 0;
+} */
