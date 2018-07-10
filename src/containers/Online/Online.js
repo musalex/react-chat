@@ -10,7 +10,7 @@ class Online extends Component {
         this.state = {
             show : false,
             text : '',
-            users : ['Путин', 'asd', 'dayn', 'roborot', 'asdasdvvwewe', 'asdasdcmasdofmsdokfmoaskmdasmdamsdkmaskdaskmd', 'mood', 'kengoo', 'ggwp']
+            users : ['User', 'asd', 'tester', 'roborot', 'asdasdvvwewe', 'asdd', 'mood', 'kengoo', 'guard']
         }
         this.click = this.click.bind(this);
     }
